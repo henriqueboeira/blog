@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+    :root{
+        --dark-10: #121214;
+        --dark-20: #17171a;
+        --dark-30: #202024;
+        --dark-40: #252529;
+        --lightgray: #757575;
+        --redp: #2a2ca7;
+
+        --gray: #afabb6;
+        --white: #ffffff;
+    }
+
+    body{
+        font-family: "inter", sans-serif;
+        margin: 0em;
+        padding: 0em;
+        background-color: var(--dark-10);
+    }
+
+    h1{
+        font-family: "Space Grotesk", sans-serif;
+        text-align: justify;
+    }
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        min-width: 300px;
+    }
+
+
+    /* header */
+    header{
+        background-color: var(--dark-20);
+        width: 100%;
+        height: 292px;
+    }
+
+    header > h1{
+        color: var(--white);
+        margin: auto;
+        text-align: center;
+        padding: 74px 0px 30px 0px;
+        width: 100%;
+        font: 700 2.5em "inter";
+    }
+
+    span{
+        color: var(--redp);
+    }
+
+    /* nav */
+    nav{
+        background-color: var(--dark-40);
+        margin: auto;
+        height: 55px;
+        border-radius: 9px;
+        width: 60%;
+    }
+
+    nav > p{
+        color: var(--lightgray);
+        padding: 17px 0px 0px 10px;
+        font-size: 18px;
+    }
+
+    /* main */
+
+    main{
+        margin: auto;
+        width: 100%;
+    }
+    
+    /* section */
+    section{
+        background-color: var(--dark-20);
+        margin: auto;
+        border-radius: 15px;
+        margin-top: 30px;
+        border: 0.1px solid var(--dark-40);
+        width: 60%;
+        height: 90%;
+        min-height: 200px;
+        min-width: 430px;
+    }
+    section#s1{
+        margin-top: 60px;
+        
+    }
+
+    section > h1{
+        color: var(--white);
+        font: 22px "inter";
+        padding: 18px 0px 8px 5px;
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+    }
+
+    section > p{
+        font: 20px "inter";
+        text-align: justify;
+        color: var(--gray);
+        padding: 5px 35px 20px 30px;
+        width: 90%;
+        margin: auto;
+    }
+
+    p.data{
+        color: var(--redp);
+        padding: 40px 0px 0px 5px;
+        font: 600 17px; 
+    }
