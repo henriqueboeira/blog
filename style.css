@@ -104,7 +104,7 @@
         font: 20px "inter";
         text-align: justify;
         color: var(--gray);
-        padding: 5px 35px 20px 30px;
+        padding: 5px 0px 20px 0px;
         width: 90%;
         margin: auto;
     }
