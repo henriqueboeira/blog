@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="mq.css" media="screen">
     <title>blog</title>
 </head>
 
@@ -12,8 +13,11 @@
     <header>
         <h1><span>Code</span>Lab</h1>
         <nav>
-            <p>Pesquisar no Blog</p>
-        </nav>
+            <form action="post">
+                <label for="search">Pesquisar:</label>
+                <input type="text" id="search" name="search" placeholder="Pesquisar no blog">
+            </form>
+        </nav>  
     </header>
     <main>
         <section id="s1">
