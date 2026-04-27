@@ -13,24 +13,18 @@
         --white: #ffffff;
     }
 
+        *{
+        margin: 0px;
+        padding: 0px;
+        min-width: 300px;
+    }
+
     body{
         font-family: "inter", sans-serif;
         margin: 0em;
         padding: 0em;
         background-color: var(--dark-10);
     }
-
-    h1{
-        font-family: "Space Grotesk", sans-serif;
-        text-align: justify;
-    }
-
-    *{
-        margin: 0px;
-        padding: 0px;
-        min-width: 300px;
-    }
-
 
     /* header */
     header{
@@ -44,8 +38,8 @@
         margin: auto;
         text-align: center;
         padding: 74px 0px 30px 0px;
-        width: 100%;
-        font: 700 2.5em "inter";
+        width: 310px;
+        font-size: clamp(2em, 10vw, 3em);
     }
 
     span{
@@ -79,42 +73,40 @@
         margin: auto;
         display: flex;
         flex-flow: column nowrap;
+        align-items: center;
+        gap: 30px;
     }
     
     /* section */
     section{
         background-color: var(--dark-20);
-        margin: auto;
         width: 50%;
         border-radius: 15px;
-        margin-top: 30px;
         border: 0.1px solid var(--dark-40);
-        flex-basis: 100%;
         padding: 0% 2%;
     }
     section#s1{
         margin-top: 60px;
-        
     }
 
     section > h1{
         color: var(--white);
-        font: 1.5em "inter";
+        font: clamp(1em,2.8vw, 2em) "inter";
         padding: 10px 0px 10px 0px;
         width: 90%;
         margin: auto;
     }
 
     section > p{
-        font: 20px "inter";
+        font-size: clamp(1em, 1vw,2em);
+        width: 90%;
         color: var(--gray);
         padding: 5px 0px 20px 0px;
-        width: 90%;
         margin: auto;
     }
 
     p.data{
         color: var(--redp);
         padding: 40px 0px 0px 5px;
-        font: 600 1em "inter"; 
+        font-size: clamp(1em, 2vw, 1.2em); 
     }
